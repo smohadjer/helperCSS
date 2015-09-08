@@ -1,16 +1,17 @@
 {
-  "name": "helperCSS",
-  "homepage": "https://github.com/smohadjer/helperCSS",
+  "name": "helpers",
+  "homepage": "https://github.com/smohadjer/helpers",
   "authors": [
     "Saeid Mohadjer <saeid@fastmail.fm>"
   ],
-  "description": "A minimal collection of useful styles",
+  "description": "A collection of css rules and javascript functions",
   "main": [
     "helper.css",
     "helper.js"
   ],
   "keywords": [
     "CSS",
+	"JavaScript",
     "default",
     "helper"
   ],
