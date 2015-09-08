@@ -6,7 +6,10 @@
     "Saeid Mohadjer <saeid@fastmail.fm>"
   ],
   "description": "A minimal collection of useful styles",
-  "main": "helper.css",
+  "main": [
+    "helper.css",
+    "helper.js"
+  ]
   "keywords": [
     "CSS",
     "default",
