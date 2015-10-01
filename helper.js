@@ -8,6 +8,28 @@ helper = {
 		var strTime = hours + ':' + minutes + ' ' + ampm;
 		return strTime;
 	},
+	
+	/* scroll page by 1px using arrow up and arrow down keys */
+	/* useful for debugging scroll related issues */
+	scrollByPixel: function() {
+		$(document).on('keyup keydown keypress', function(e) {
+			e.preventDefault(); /* to avoid browser's default scrolling */
+
+			if (e.type !== 'keyup') {
+				return;
+			}
+
+			var code = e.keyCode ? e.keyCode : e.which;
+
+		        if (code == 40) {
+		            console.log("down pressed");
+					$(window).scrollTop($(window).scrollTop() + 1);
+		        } else if (code == 38) {
+		            console.log("up pressed");
+					$(window).scrollTop($(window).scrollTop() - 1);
+		        }
+		});			
+	}	
 
 	// http://stackoverflow.com/questions/5999118/add-or-update-query-string-parameter
 	updateQueryStringParameter: function(uri, key, value) {
