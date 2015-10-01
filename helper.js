@@ -29,7 +29,7 @@ helper = {
 					$(window).scrollTop($(window).scrollTop() - 1);
 		        }
 		});			
-	}	
+	},	
 
 	// http://stackoverflow.com/questions/5999118/add-or-update-query-string-parameter
 	updateQueryStringParameter: function(uri, key, value) {
