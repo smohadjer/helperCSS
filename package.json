@@ -1,0 +1,19 @@
+{
+  "name": "helpers",
+  "version": "1.0.0",
+  "description": "A collection of CSS rules and JavaScript functions that help with frontend development of cross-browser responsive Websites.",
+  "main": "helper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smohadjer/helpers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smohadjer/helpers/issues"
+  },
+  "homepage": "https://github.com/smohadjer/helpers#readme"
+}
